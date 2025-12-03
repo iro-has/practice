@@ -63,9 +63,6 @@ const clickHandler = (e) => {
     } else {
          // 問題数がなければ終了する。
         window.alert('終了！お疲れ様でした！あなたの正解数は' + score + '/' + quizLength + 'です！');
-        const win = window.open("https://example.com", "_blank");
-        win.close();  // OK
-
     }
 };
 

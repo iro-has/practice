@@ -13,8 +13,6 @@ function onClickButton() {
     //３．数秒後に画像が止まる処理
     setTimeout(() => {
         clearInterval(timer);
-    }, 3000);
+    }, 2000);
 };
 document.querySelector('#js-button').addEventListener('click', onClickButton);
-
-//３．数秒後に画像が止まる処理
